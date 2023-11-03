@@ -1,0 +1,18 @@
+body{
+    background-color: blue;
+    font-size: x-large;
+    text-align: center;
+}
+div::after{
+    content: "Dev varshney";
+}
+
+    @media(min-width:500px) and (max-width:750px){
+    body{
+        background-color: aqua;
+    }
+    div::after{
+        content: "Dev";
+        background-image: repeating-radial-gradient();
+    }
+}
